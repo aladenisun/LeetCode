@@ -11,6 +11,7 @@
 		DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */; };
 		DFA4162124D50B52007A896D /* RunningSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4162024D50B52007A896D /* RunningSum.cpp */; };
 		DFA4162324D51149007A896D /* Shuffle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4162224D51149007A896D /* Shuffle.cpp */; };
+		DFA4162524D5264C007A896D /* GreatestNoOfCandies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4162424D5264C007A896D /* GreatestNoOfCandies.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuy.cpp; sourceTree = "<group>"; };
 		DFA4162024D50B52007A896D /* RunningSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RunningSum.cpp; sourceTree = "<group>"; };
 		DFA4162224D51149007A896D /* Shuffle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shuffle.cpp; sourceTree = "<group>"; };
+		DFA4162424D5264C007A896D /* GreatestNoOfCandies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreatestNoOfCandies.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */,
 				DFA4162024D50B52007A896D /* RunningSum.cpp */,
 				DFA4162224D51149007A896D /* Shuffle.cpp */,
+				DFA4162424D5264C007A896D /* GreatestNoOfCandies.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFA4162124D50B52007A896D /* RunningSum.cpp in Sources */,
+				DFA4162524D5264C007A896D /* GreatestNoOfCandies.cpp in Sources */,
 				DFA4162324D51149007A896D /* Shuffle.cpp in Sources */,
 				DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */,
 				DFA4161824D4A619007A896D /* RemoveDuplicate.cpp in Sources */,

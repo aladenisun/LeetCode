@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DFA4161824D4A619007A896D /* RemoveDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */; };
+		DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		DFA4161424D4A619007A896D /* TwoSums */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoSums; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicate.cpp; sourceTree = "<group>"; };
+		DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuy.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */,
+				DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */,
 				DFA4161824D4A619007A896D /* RemoveDuplicate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

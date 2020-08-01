@@ -31,7 +31,7 @@ int removeDuplicates(vector<int>& nums){
 };
 
 int main(){
-    printf("Hello");
+    printf("Hello World");
     vector<int>arr = {1,1,2};
     int ret = 0;
     

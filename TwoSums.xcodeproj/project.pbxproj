@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0DFF2224DD2A0F004BF99C /* prefixOfWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF0DFF2124DD2A0F004BF99C /* prefixOfWord.cpp */; };
 		DF12E6A024D69DFD00551B34 /* DestinationCity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF12E69F24D69DFD00551B34 /* DestinationCity.cpp */; };
 		DF12E6A224D6ABD300551B34 /* StackOperations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF12E6A124D6ABD300551B34 /* StackOperations.cpp */; };
 		DF12E6A624DBD8D200551B34 /* consecutive_characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF12E6A524DBD8D200551B34 /* consecutive_characters.cpp */; };
@@ -31,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF0DFF2124DD2A0F004BF99C /* prefixOfWord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = prefixOfWord.cpp; sourceTree = "<group>"; };
 		DF12E69F24D69DFD00551B34 /* DestinationCity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DestinationCity.cpp; sourceTree = "<group>"; };
 		DF12E6A124D6ABD300551B34 /* StackOperations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackOperations.cpp; sourceTree = "<group>"; };
 		DF12E6A524DBD8D200551B34 /* consecutive_characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = consecutive_characters.cpp; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				DF12E6A124D6ABD300551B34 /* StackOperations.cpp */,
 				DF12E6A524DBD8D200551B34 /* consecutive_characters.cpp */,
 				DF12E6A724DBF0FD00551B34 /* busyStudent.cpp */,
+				DF0DFF2124DD2A0F004BF99C /* prefixOfWord.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				DF12E6A024D69DFD00551B34 /* DestinationCity.cpp in Sources */,
 				DF12E6A624DBD8D200551B34 /* consecutive_characters.cpp in Sources */,
 				DF12E6A224D6ABD300551B34 /* StackOperations.cpp in Sources */,
+				DF0DFF2224DD2A0F004BF99C /* prefixOfWord.cpp in Sources */,
 				DFA4162524D5264C007A896D /* GreatestNoOfCandies.cpp in Sources */,
 				DF12E6A824DBF0FD00551B34 /* busyStudent.cpp in Sources */,
 				DFA4162324D51149007A896D /* Shuffle.cpp in Sources */,

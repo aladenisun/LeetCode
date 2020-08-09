@@ -19,6 +19,8 @@ public:
       int size = digits.size();
       int i = size-1;
       
+           vector<int> result;
+      
       
       while(carry == 1 && i >= 0){
           
@@ -33,17 +35,26 @@ public:
           
           digits[i] = remainder;
          // printf("digits = %i\n", digits[i]);
-        
-          i--;
-         // printf("i = %i\n", i);
-      }
-      
-      return digits;
+          
+         if (carry == 1 && i == 0){
+                        result.push_back(1);
+                        
+                        for(int j=0; j<size; j++){
+                            result.push_back(0);
+                        }
+                        return result;
+                   }
+                   
+                   else i--;
+           
+               }
+               
+               return digits;
   }
 };
 
 int main(){
-    vector<int>nums1 = {4,3,2,1};
+    vector<int>nums1 = {9,9,9};
 
     vector<int> ret;
     

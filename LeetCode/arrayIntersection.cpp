@@ -22,7 +22,8 @@ public:
        
        vector<int> result;
        
-       while(i != nums1.size() || j != nums2.size()){
+       while(1){
+       if( i == nums1.size() || j == nums2.size()) break;
            if(nums1[i] == nums2[j]){
                result.push_back(nums1[i]);
                i++;

@@ -12,6 +12,7 @@
 		DF12E6A224D6ABD300551B34 /* StackOperations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF12E6A124D6ABD300551B34 /* StackOperations.cpp */; };
 		DF12E6A624DBD8D200551B34 /* consecutive_characters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF12E6A524DBD8D200551B34 /* consecutive_characters.cpp */; };
 		DF12E6A824DBF0FD00551B34 /* busyStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF12E6A724DBF0FD00551B34 /* busyStudent.cpp */; };
+		DF35703924E0780C0065903B /* ConsecutiveOnes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35703824E0780C0065903B /* ConsecutiveOnes.cpp */; };
 		DFA4161824D4A619007A896D /* RemoveDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */; };
 		DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */; };
 		DFA4162124D50B52007A896D /* RunningSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4162024D50B52007A896D /* RunningSum.cpp */; };
@@ -37,6 +38,7 @@
 		DF12E6A124D6ABD300551B34 /* StackOperations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackOperations.cpp; sourceTree = "<group>"; };
 		DF12E6A524DBD8D200551B34 /* consecutive_characters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = consecutive_characters.cpp; sourceTree = "<group>"; };
 		DF12E6A724DBF0FD00551B34 /* busyStudent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = busyStudent.cpp; sourceTree = "<group>"; };
+		DF35703824E0780C0065903B /* ConsecutiveOnes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConsecutiveOnes.cpp; sourceTree = "<group>"; };
 		DFA4161424D4A619007A896D /* TwoSums */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoSums; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicate.cpp; sourceTree = "<group>"; };
 		DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuy.cpp; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				DF12E6A524DBD8D200551B34 /* consecutive_characters.cpp */,
 				DF12E6A724DBF0FD00551B34 /* busyStudent.cpp */,
 				DF0DFF2124DD2A0F004BF99C /* prefixOfWord.cpp */,
+				DF35703824E0780C0065903B /* ConsecutiveOnes.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				DF12E6A224D6ABD300551B34 /* StackOperations.cpp in Sources */,
 				DF0DFF2224DD2A0F004BF99C /* prefixOfWord.cpp in Sources */,
 				DFA4162524D5264C007A896D /* GreatestNoOfCandies.cpp in Sources */,
+				DF35703924E0780C0065903B /* ConsecutiveOnes.cpp in Sources */,
 				DF12E6A824DBF0FD00551B34 /* busyStudent.cpp in Sources */,
 				DFA4162324D51149007A896D /* Shuffle.cpp in Sources */,
 				DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */,

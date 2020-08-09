@@ -15,6 +15,7 @@
 		DF35703924E0780C0065903B /* ConsecutiveOnes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35703824E0780C0065903B /* ConsecutiveOnes.cpp */; };
 		DF35703B24E07E560065903B /* NumsEvenCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35703A24E07E560065903B /* NumsEvenCount.cpp */; };
 		DF35703D24E092370065903B /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35703C24E092370065903B /* QuickSort.cpp */; };
+		DF35703F24E09B2E0065903B /* sortedSquares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35703E24E09B2E0065903B /* sortedSquares.cpp */; };
 		DFA4161824D4A619007A896D /* RemoveDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */; };
 		DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */; };
 		DFA4162124D50B52007A896D /* RunningSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4162024D50B52007A896D /* RunningSum.cpp */; };
@@ -43,6 +44,7 @@
 		DF35703824E0780C0065903B /* ConsecutiveOnes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ConsecutiveOnes.cpp; sourceTree = "<group>"; };
 		DF35703A24E07E560065903B /* NumsEvenCount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumsEvenCount.cpp; sourceTree = "<group>"; };
 		DF35703C24E092370065903B /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		DF35703E24E09B2E0065903B /* sortedSquares.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sortedSquares.cpp; sourceTree = "<group>"; };
 		DFA4161424D4A619007A896D /* TwoSums */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoSums; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicate.cpp; sourceTree = "<group>"; };
 		DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuy.cpp; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				DF35703824E0780C0065903B /* ConsecutiveOnes.cpp */,
 				DF35703A24E07E560065903B /* NumsEvenCount.cpp */,
 				DF35703C24E092370065903B /* QuickSort.cpp */,
+				DF35703E24E09B2E0065903B /* sortedSquares.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				DF12E6A624DBD8D200551B34 /* consecutive_characters.cpp in Sources */,
 				DF12E6A224D6ABD300551B34 /* StackOperations.cpp in Sources */,
 				DF0DFF2224DD2A0F004BF99C /* prefixOfWord.cpp in Sources */,
+				DF35703F24E09B2E0065903B /* sortedSquares.cpp in Sources */,
 				DFA4162524D5264C007A896D /* GreatestNoOfCandies.cpp in Sources */,
 				DF35703924E0780C0065903B /* ConsecutiveOnes.cpp in Sources */,
 				DF12E6A824DBF0FD00551B34 /* busyStudent.cpp in Sources */,

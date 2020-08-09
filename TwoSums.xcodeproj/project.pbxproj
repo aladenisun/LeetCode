@@ -17,6 +17,7 @@
 		DF35703D24E092370065903B /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35703C24E092370065903B /* QuickSort.cpp */; };
 		DF35703F24E09B2E0065903B /* sortedSquares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35703E24E09B2E0065903B /* sortedSquares.cpp */; };
 		DF35704124E0A39A0065903B /* containDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35704024E0A39A0065903B /* containDuplicate.cpp */; };
+		DF35704324E0AB460065903B /* arrayIntersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35704224E0AB460065903B /* arrayIntersection.cpp */; };
 		DFA4161824D4A619007A896D /* RemoveDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */; };
 		DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */; };
 		DFA4162124D50B52007A896D /* RunningSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4162024D50B52007A896D /* RunningSum.cpp */; };
@@ -47,6 +48,7 @@
 		DF35703C24E092370065903B /* QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
 		DF35703E24E09B2E0065903B /* sortedSquares.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sortedSquares.cpp; sourceTree = "<group>"; };
 		DF35704024E0A39A0065903B /* containDuplicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = containDuplicate.cpp; sourceTree = "<group>"; };
+		DF35704224E0AB460065903B /* arrayIntersection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrayIntersection.cpp; sourceTree = "<group>"; };
 		DFA4161424D4A619007A896D /* TwoSums */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoSums; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicate.cpp; sourceTree = "<group>"; };
 		DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuy.cpp; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				DF35703C24E092370065903B /* QuickSort.cpp */,
 				DF35703E24E09B2E0065903B /* sortedSquares.cpp */,
 				DF35704024E0A39A0065903B /* containDuplicate.cpp */,
+				DF35704224E0AB460065903B /* arrayIntersection.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				DF12E6A824DBF0FD00551B34 /* busyStudent.cpp in Sources */,
 				DF35703B24E07E560065903B /* NumsEvenCount.cpp in Sources */,
 				DF35703D24E092370065903B /* QuickSort.cpp in Sources */,
+				DF35704324E0AB460065903B /* arrayIntersection.cpp in Sources */,
 				DFA4162324D51149007A896D /* Shuffle.cpp in Sources */,
 				DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */,
 				DFA4161824D4A619007A896D /* RemoveDuplicate.cpp in Sources */,

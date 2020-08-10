@@ -20,6 +20,10 @@
 		DF35704324E0AB460065903B /* arrayIntersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35704224E0AB460065903B /* arrayIntersection.cpp */; };
 		DF35704524E0B2610065903B /* plusOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35704424E0B2610065903B /* plusOne.cpp */; };
 		DF35704724E1D8B90065903B /* swapString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35704624E1D8B90065903B /* swapString.cpp */; };
+		DF35704924E1FBA70065903B /* reverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35704824E1FBA70065903B /* reverseInteger.cpp */; };
+		DF35704B24E1FC0A0065903B /* UniqueChar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35704A24E1FC0A0065903B /* UniqueChar.cpp */; };
+		DF35704D24E1FC960065903B /* validAnagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35704C24E1FC960065903B /* validAnagram.cpp */; };
+		DF35704F24E1FD1F0065903B /* validPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF35704E24E1FD1F0065903B /* validPalindrome.cpp */; };
 		DFA4161824D4A619007A896D /* RemoveDuplicate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */; };
 		DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */; };
 		DFA4162124D50B52007A896D /* RunningSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4162024D50B52007A896D /* RunningSum.cpp */; };
@@ -53,6 +57,10 @@
 		DF35704224E0AB460065903B /* arrayIntersection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arrayIntersection.cpp; sourceTree = "<group>"; };
 		DF35704424E0B2610065903B /* plusOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = plusOne.cpp; sourceTree = "<group>"; };
 		DF35704624E1D8B90065903B /* swapString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swapString.cpp; sourceTree = "<group>"; };
+		DF35704824E1FBA70065903B /* reverseInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseInteger.cpp; sourceTree = "<group>"; };
+		DF35704A24E1FC0A0065903B /* UniqueChar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniqueChar.cpp; sourceTree = "<group>"; };
+		DF35704C24E1FC960065903B /* validAnagram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = validAnagram.cpp; sourceTree = "<group>"; };
+		DF35704E24E1FD1F0065903B /* validPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = validPalindrome.cpp; sourceTree = "<group>"; };
 		DFA4161424D4A619007A896D /* TwoSums */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoSums; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA4161724D4A619007A896D /* RemoveDuplicate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveDuplicate.cpp; sourceTree = "<group>"; };
 		DFA4161E24D5076C007A896D /* BestTimetoBuy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BestTimetoBuy.cpp; sourceTree = "<group>"; };
@@ -109,6 +117,10 @@
 				DF35704224E0AB460065903B /* arrayIntersection.cpp */,
 				DF35704424E0B2610065903B /* plusOne.cpp */,
 				DF35704624E1D8B90065903B /* swapString.cpp */,
+				DF35704824E1FBA70065903B /* reverseInteger.cpp */,
+				DF35704A24E1FC0A0065903B /* UniqueChar.cpp */,
+				DF35704C24E1FC960065903B /* validAnagram.cpp */,
+				DF35704E24E1FD1F0065903B /* validPalindrome.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -170,22 +182,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF35704B24E1FC0A0065903B /* UniqueChar.cpp in Sources */,
 				DF35704124E0A39A0065903B /* containDuplicate.cpp in Sources */,
 				DFA4162124D50B52007A896D /* RunningSum.cpp in Sources */,
 				DF12E6A024D69DFD00551B34 /* DestinationCity.cpp in Sources */,
 				DF12E6A624DBD8D200551B34 /* consecutive_characters.cpp in Sources */,
 				DF12E6A224D6ABD300551B34 /* StackOperations.cpp in Sources */,
+				DF35704D24E1FC960065903B /* validAnagram.cpp in Sources */,
 				DF0DFF2224DD2A0F004BF99C /* prefixOfWord.cpp in Sources */,
 				DF35703F24E09B2E0065903B /* sortedSquares.cpp in Sources */,
 				DFA4162524D5264C007A896D /* GreatestNoOfCandies.cpp in Sources */,
 				DF35703924E0780C0065903B /* ConsecutiveOnes.cpp in Sources */,
 				DF12E6A824DBF0FD00551B34 /* busyStudent.cpp in Sources */,
+				DF35704924E1FBA70065903B /* reverseInteger.cpp in Sources */,
 				DF35703B24E07E560065903B /* NumsEvenCount.cpp in Sources */,
 				DF35703D24E092370065903B /* QuickSort.cpp in Sources */,
 				DF35704324E0AB460065903B /* arrayIntersection.cpp in Sources */,
 				DFA4162324D51149007A896D /* Shuffle.cpp in Sources */,
 				DF35704524E0B2610065903B /* plusOne.cpp in Sources */,
 				DF35704724E1D8B90065903B /* swapString.cpp in Sources */,
+				DF35704F24E1FD1F0065903B /* validPalindrome.cpp in Sources */,
 				DFA4161F24D5076C007A896D /* BestTimetoBuy.cpp in Sources */,
 				DFA4161824D4A619007A896D /* RemoveDuplicate.cpp in Sources */,
 			);

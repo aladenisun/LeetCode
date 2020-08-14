@@ -30,6 +30,7 @@
 		DFA4162324D51149007A896D /* Shuffle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4162224D51149007A896D /* Shuffle.cpp */; };
 		DFA4162524D5264C007A896D /* GreatestNoOfCandies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFA4162424D5264C007A896D /* GreatestNoOfCandies.cpp */; };
 		DFC0B3EC24E7426B0047FE58 /* strStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3EB24E7426B0047FE58 /* strStr.cpp */; };
+		DFC0B3EE24E743C50047FE58 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3ED24E743C50047FE58 /* TwoSum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		DFA4162224D51149007A896D /* Shuffle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shuffle.cpp; sourceTree = "<group>"; };
 		DFA4162424D5264C007A896D /* GreatestNoOfCandies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreatestNoOfCandies.cpp; sourceTree = "<group>"; };
 		DFC0B3EB24E7426B0047FE58 /* strStr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = strStr.cpp; sourceTree = "<group>"; };
+		DFC0B3ED24E743C50047FE58 /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				DF35704C24E1FC960065903B /* validAnagram.cpp */,
 				DF35704E24E1FD1F0065903B /* validPalindrome.cpp */,
 				DFC0B3EB24E7426B0047FE58 /* strStr.cpp */,
+				DFC0B3ED24E743C50047FE58 /* TwoSum.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				DF0DFF2224DD2A0F004BF99C /* prefixOfWord.cpp in Sources */,
 				DF35703F24E09B2E0065903B /* sortedSquares.cpp in Sources */,
 				DFA4162524D5264C007A896D /* GreatestNoOfCandies.cpp in Sources */,
+				DFC0B3EE24E743C50047FE58 /* TwoSum.cpp in Sources */,
 				DFC0B3EC24E7426B0047FE58 /* strStr.cpp in Sources */,
 				DF35703924E0780C0065903B /* ConsecutiveOnes.cpp in Sources */,
 				DF12E6A824DBF0FD00551B34 /* busyStudent.cpp in Sources */,

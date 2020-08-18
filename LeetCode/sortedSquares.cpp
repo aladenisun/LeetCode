@@ -62,7 +62,7 @@ int main(){
     
     Solution Example;
     
-    ret = Example.sortedSquares(arr)
+    ret = Example.sortedSquares(arr);
     
       printf("[");
     

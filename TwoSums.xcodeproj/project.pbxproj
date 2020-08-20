@@ -33,6 +33,7 @@
 		DFC0B3EE24E743C50047FE58 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3ED24E743C50047FE58 /* TwoSum.cpp */; };
 		DFC0B3F024E7493C0047FE58 /* RemoveLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3EF24E7493C0047FE58 /* RemoveLinkedList.cpp */; };
 		DFC0B3F224EBAA720047FE58 /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3F124EBAA720047FE58 /* ReverseLinkedList.cpp */; };
+		DFC0B3F424EE30640047FE58 /* MergeTwoLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3F324EE30640047FE58 /* MergeTwoLists.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +76,7 @@
 		DFC0B3ED24E743C50047FE58 /* TwoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		DFC0B3EF24E7493C0047FE58 /* RemoveLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RemoveLinkedList.cpp; sourceTree = "<group>"; };
 		DFC0B3F124EBAA720047FE58 /* ReverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedList.cpp; sourceTree = "<group>"; };
+		DFC0B3F324EE30640047FE58 /* MergeTwoLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoLists.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				DFC0B3ED24E743C50047FE58 /* TwoSum.cpp */,
 				DFC0B3EF24E7493C0047FE58 /* RemoveLinkedList.cpp */,
 				DFC0B3F124EBAA720047FE58 /* ReverseLinkedList.cpp */,
+				DFC0B3F324EE30640047FE58 /* MergeTwoLists.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF35704B24E1FC0A0065903B /* UniqueChar.cpp in Sources */,
+				DFC0B3F424EE30640047FE58 /* MergeTwoLists.cpp in Sources */,
 				DF35704124E0A39A0065903B /* containDuplicate.cpp in Sources */,
 				DFA4162124D50B52007A896D /* RunningSum.cpp in Sources */,
 				DF12E6A024D69DFD00551B34 /* DestinationCity.cpp in Sources */,

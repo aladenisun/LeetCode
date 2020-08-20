@@ -1,4 +1,3 @@
-
  #include <iostream>
  #include <vector>
  #include <unordered_map>
@@ -6,7 +5,6 @@
  #include <algorithm>
  #include <set>
  #include <iterator>
-using namespace std;
 
 struct ListNode {
       int val;
@@ -18,42 +16,27 @@ struct ListNode {
 
 class Solution {
 public:
-    bool isPalindrome(ListNode* head) {
+    bool hasCycle(ListNode *head) {
         /*
-        conditions:
-        - list has 1 value
-        - list is empty.
+        Conditions:
+        - pos = -1 so prev->next == NULL
+        - curr == NULL and prev == NULL
+        Algorithm
+        -
         
-        algorithm:
-        - create a vector
-        - traverse through the linked list and pushback into the vector
-        - compare the vector and the linked list
         */
-
-        vector<int> array;
-        ListNode* current = head;
         
-        while(current != NULL){
-            array.push_back(current->val);
-            current = current->next;
+        ListNode* curr = head;
+        ListNode* prev = head;
+        
+        while(curr != NULL && prev != NULL && prev->next != NULL){
+            curr = curr->next;
+            prev = prev->next->next;
+            
+            if(curr == prev) return true;
+            
         }
-        
-        int first = 0;
-        int last = array.size()-1;
-         
-        
-        while(first <= last){
-            if(array[first] == array[last]) {
-                first++;
-                last--;
-                continue;
-            }
-            else{
-                return false;
-            }
-        }
-             return true;
-        
+        return false;
     }
 };
 
@@ -78,11 +61,12 @@ int main(){
     push(&head, 5);
     
     Solution Example;
-    bool res = Example.isPalindrome(head);
+    bool res = Example.hasCycle(head);
     
 
         printf("Output: %s\n", res? "true":"false");
-
+    
+    
 }
 
 

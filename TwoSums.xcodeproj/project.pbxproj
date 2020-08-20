@@ -35,6 +35,7 @@
 		DFC0B3F224EBAA720047FE58 /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3F124EBAA720047FE58 /* ReverseLinkedList.cpp */; };
 		DFC0B3F424EE30640047FE58 /* MergeTwoLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3F324EE30640047FE58 /* MergeTwoLists.cpp */; };
 		DFC0B3F624EE33750047FE58 /* PalendromeLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3F524EE33750047FE58 /* PalendromeLinkedList.cpp */; };
+		DFC0B3F824EE35DA0047FE58 /* LinkedListCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFC0B3F724EE35DA0047FE58 /* LinkedListCycle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,7 @@
 		DFC0B3F124EBAA720047FE58 /* ReverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedList.cpp; sourceTree = "<group>"; };
 		DFC0B3F324EE30640047FE58 /* MergeTwoLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoLists.cpp; sourceTree = "<group>"; };
 		DFC0B3F524EE33750047FE58 /* PalendromeLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PalendromeLinkedList.cpp; sourceTree = "<group>"; };
+		DFC0B3F724EE35DA0047FE58 /* LinkedListCycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListCycle.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				DFC0B3F124EBAA720047FE58 /* ReverseLinkedList.cpp */,
 				DFC0B3F324EE30640047FE58 /* MergeTwoLists.cpp */,
 				DFC0B3F524EE33750047FE58 /* PalendromeLinkedList.cpp */,
+				DFC0B3F724EE35DA0047FE58 /* LinkedListCycle.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				DF35704124E0A39A0065903B /* containDuplicate.cpp in Sources */,
 				DFC0B3F624EE33750047FE58 /* PalendromeLinkedList.cpp in Sources */,
 				DFA4162124D50B52007A896D /* RunningSum.cpp in Sources */,
+				DFC0B3F824EE35DA0047FE58 /* LinkedListCycle.cpp in Sources */,
 				DF12E6A024D69DFD00551B34 /* DestinationCity.cpp in Sources */,
 				DF12E6A624DBD8D200551B34 /* consecutive_characters.cpp in Sources */,
 				DF12E6A224D6ABD300551B34 /* StackOperations.cpp in Sources */,

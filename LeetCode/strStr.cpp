@@ -39,7 +39,6 @@ public:
                 if(j == nSize)
                     return i;
             }
-            
             return -1;
         }
 };

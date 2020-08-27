@@ -39,7 +39,6 @@ public:
     }
 };
 
-
 int main(){
     vector<string> ret;
     int n = 1;

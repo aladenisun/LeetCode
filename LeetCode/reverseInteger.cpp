@@ -36,9 +36,4 @@ int main(){
     ret = Example.reverse(123);
     
              printf("Output = %i", ret);
-      
 }
-
-
-
-
